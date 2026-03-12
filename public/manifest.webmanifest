@@ -1,0 +1,21 @@
+{
+  "name": "Sprinkler Medic",
+  "short_name": "Sprinkler Medic",
+  "description": "Irrigation repair, installation, and maintenance in north Alabama. Call (256) 679-2934.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16a34a",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -37,8 +37,10 @@ const labelClass = 'mb-1 block text-sm font-semibold text-slate-700'
 
 export function ContactForm() {
   const [form, setForm] = useState<FormData>(INITIAL_FORM)
+  const [honeypot, setHoneypot] = useState('')
   const [state, setState] = useState<FormState>('idle')
   const [errors, setErrors] = useState<Partial<FormData>>({})
+  const [serverError, setServerError] = useState('')
 
   function validate(): boolean {
     const newErrors: Partial<FormData> = {}
@@ -58,13 +60,37 @@ export function ContactForm() {
     e.preventDefault()
     if (!validate()) return
     setState('loading')
-    // TODO: wire up form submission (e.g., Resend, Formspree, or API route)
-    await new Promise((r) => setTimeout(r, 1000))
-    setState('success')
+    setServerError('')
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...form, website: honeypot }),
+      })
+      if (res.ok) {
+        setState('success')
+        // GA4 event
+        if (typeof window !== 'undefined' && 'gtag' in window) {
+          ;(window as unknown as { gtag: (...args: unknown[]) => void }).gtag('event', 'form_submit', {
+            event_category: 'Contact',
+            event_label: form.service,
+          })
+        }
+      } else {
+        const data = await res.json().catch(() => ({}))
+        setServerError(
+          (data as { error?: string }).error ?? 'Something went wrong. Please try again.',
+        )
+        setState('error')
+      }
+    } catch {
+      setServerError('Network error. Please try again or call us directly.')
+      setState('error')
+    }
   }
 
   function handleChange(
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>,
   ) {
     const { name, value } = e.target
     setForm((prev) => ({ ...prev, [name]: value }))
@@ -100,6 +126,20 @@ export function ContactForm() {
       className="rounded-2xl bg-white p-8 shadow-xl"
     >
       <h3 className="mb-6 text-2xl font-bold text-slate-900">Request Service</h3>
+
+      {/* Honeypot — hidden from real users, bots will fill it */}
+      <div aria-hidden="true" className="hidden">
+        <label htmlFor="website">Leave this blank</label>
+        <input
+          id="website"
+          name="website"
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+          value={honeypot}
+          onChange={(e) => setHoneypot(e.target.value)}
+        />
+      </div>
 
       <div className="space-y-5">
         {/* Name */}
@@ -224,11 +264,12 @@ export function ContactForm() {
 
         {state === 'error' && (
           <p className="text-center text-sm text-red-600" role="alert">
-            Something went wrong. Please call us at{' '}
-            <a href="tel:+12566792934" className="font-semibold underline">
-              (256) 679-2934
-            </a>
-            .
+            {serverError || 'Something went wrong. Please call us at'}{' '}
+            {!serverError && (
+              <a href="tel:+12566792934" className="font-semibold underline">
+                (256) 679-2934
+              </a>
+            )}
           </p>
         )}
       </div>
