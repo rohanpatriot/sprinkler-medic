@@ -2,16 +2,15 @@ import Link from 'next/link'
 
 const PHONE_NUMBER = '(256) 679-2934'
 const PHONE_HREF = 'tel:+12566792934'
-const EMAIL = 'info@sprinklermedic.com'
-const LICENSE = 'AL-LIC-XXXXXX' // TODO: replace with real license number
+const EMAIL = 'sprinklermedichsv@gmail.com'
 
 const SERVICES = [
-  { href: '/services/installation', label: 'New Installation' },
-  { href: '/services/repair', label: 'Repair & Troubleshooting' },
-  { href: '/services/maintenance', label: 'Seasonal Maintenance' },
-  { href: '/services/winterization', label: 'Winterization' },
-  { href: '/services/drip-irrigation', label: 'Drip Irrigation' },
-  { href: '/services/smart-controllers', label: 'Smart Controllers' },
+  { href: '/services/irrigation-service-repair', label: 'Repair & Troubleshooting' },
+  { href: '/services/irrigation-installation', label: 'New Installation' },
+  { href: '/services/leak-detection', label: 'Leak Detection' },
+  { href: '/services/spring-startup-winterization', label: 'Winterization' },
+  { href: '/services/outdoor-lighting', label: 'Outdoor Lighting' },
+  { href: '/services/drainage', label: 'Drainage' },
 ]
 
 const COMPANY_LINKS = [
@@ -41,12 +40,14 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-sm leading-relaxed text-slate-400">
-              Professional irrigation installation, repair, and maintenance serving North Alabama since 2013.
+              Professional irrigation installation, repair, and maintenance serving North Alabama since 2015.
             </p>
             <div className="mt-4 flex gap-3">
               {/* Facebook */}
               <a
-                href="#"
+                href="https://www.facebook.com/share/1CVLsjxcN7/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 text-slate-400 transition-colors hover:bg-green-600 hover:text-white"
                 aria-label="Sprinkler Medic on Facebook"
               >
@@ -56,7 +57,9 @@ export function Footer() {
               </a>
               {/* Google */}
               <a
-                href="#"
+                href="https://maps.app.goo.gl/PEiZRcnM2vucotjh8"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 text-slate-400 transition-colors hover:bg-green-600 hover:text-white"
                 aria-label="Sprinkler Medic on Google"
               >
@@ -155,9 +158,9 @@ export function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-slate-800">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-6 py-4 text-xs text-slate-500 sm:flex-row">
-          <p>© {new Date().getFullYear()} Sprinkler Medic. All rights reserved. {LICENSE}</p>
-          <Link href="/privacy" className="hover:text-slate-300">
-            Privacy Policy
+          <p>© {new Date().getFullYear()} Sprinkler Medic. All rights reserved.</p>
+          <Link href="/contact" className="hover:text-slate-300">
+            Contact Us
           </Link>
         </div>
       </div>
