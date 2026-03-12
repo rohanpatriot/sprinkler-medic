@@ -8,14 +8,14 @@ import { loadReviews } from '@/lib/reviews'
 export const metadata: Metadata = {
   title: 'Customer Reviews | Sprinkler Medic Huntsville AL',
   description:
-    'See what north Alabama homeowners say about Sprinkler Medic. 5-star irrigation repair and installation reviews from Huntsville, Madison, and surrounding areas.',
+    'Read real customer reviews for Sprinkler Medic. Trusted irrigation repair and installation serving Huntsville, Madison, and north Alabama.',
   alternates: {
     canonical: 'https://sprinklermedic.com/testimonials',
   },
   openGraph: {
     title: 'Customer Reviews | Sprinkler Medic Huntsville AL',
     description:
-      'See what north Alabama homeowners say about Sprinkler Medic. 5-star irrigation repair and installation reviews from Huntsville, Madison, and surrounding areas.',
+      'Read real customer reviews for Sprinkler Medic. Trusted irrigation repair and installation serving Huntsville, Madison, and north Alabama.',
     url: 'https://sprinklermedic.com/testimonials',
   },
 }
@@ -81,7 +81,7 @@ export default function TestimonialsPage() {
                 What Our Customers Say
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-green-100">
-                {rating} stars across {count}+ Google reviews. North Alabama homeowners trust Sprinkler Medic.
+                Rated {rating} stars on Google with {count} reviews. North Alabama homeowners trust Sprinkler Medic.
               </p>
               {isScraped && (
                 <p className="mt-2 text-sm text-green-300/70">
