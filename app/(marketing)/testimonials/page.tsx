@@ -3,6 +3,7 @@ import Script from 'next/script'
 import { TestimonialCard } from '@/components/ui/TestimonialCard'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Button } from '@/components/ui/Button'
+import { loadReviews } from '@/lib/reviews'
 
 export const metadata: Metadata = {
   title: 'Customer Reviews | Sprinkler Medic Huntsville AL',
@@ -31,70 +32,44 @@ const breadcrumbSchema = {
 const PHONE_HREF = 'tel:+12566792934'
 const PHONE_NUMBER = '(256) 679-2934'
 
-const TESTIMONIALS = [
-  {
-    quote: 'Josh showed up exactly when he said he would, diagnosed the problem in 10 minutes, and had it fixed within the hour. Honest, fast, and fair price. Will not call anyone else.',
-    name: 'Mike T.',
-    location: 'Huntsville, AL',
-    rating: 5 as const,
-  },
-  {
-    quote: 'We had a main line break the night before a big outdoor event. Josh came out at 7 AM and had everything running before our guests arrived. Absolute lifesaver.',
-    name: 'Sarah K.',
-    location: 'Madison, AL',
-    rating: 5 as const,
-  },
-  {
-    quote: "Had Sprinkler Medic do our spring start-up and they found two heads that needed replacing we didn't even know about. System is running better than it has in years.",
-    name: 'David R.',
-    location: 'New Market, AL',
-    rating: 5 as const,
-  },
-  {
-    quote: "I've used other irrigation companies and always felt like I was being upsold. Josh told me what was actually wrong and what it would cost. That's rare.",
-    name: 'Jennifer M.',
-    location: 'Madison, AL',
-    rating: 5 as const,
-  },
-  {
-    quote: 'Our water bill was through the roof. Josh found a valve that was stuck open and fixed it same day. Bill went right back to normal. Money well spent.',
-    name: 'Tom H.',
-    location: 'Huntsville, AL',
-    rating: 5 as const,
-  },
-  {
-    quote: 'Full system installation — Josh walked the whole yard with me, explained the zone plan, and had it done in a day and a half. Clean work, no mess left behind.',
-    name: 'Karen B.',
-    location: 'Athens, AL',
-    rating: 5 as const,
-  },
-  {
-    quote: "Called at 9 PM because a line broke and was flooding. Josh answered and was here by 7 the next morning. That's the kind of service you can't find everywhere.",
-    name: 'Robert F.',
-    location: 'Gurley, AL',
-    rating: 5 as const,
-  },
-  {
-    quote: "We've had Sprinkler Medic do our winterization for three years running. Always on time, always thorough. We stop worrying about freeze damage because we know it's handled.",
-    name: 'Lisa W.',
-    location: 'Hazel Green, AL',
-    rating: 5 as const,
-  },
-  {
-    quote: "Most honest contractor I've dealt with. He told me one of my heads just needed adjusting, not replacing. Could have charged me more and I wouldn't have known.",
-    name: 'Gary P.',
-    location: 'Decatur, AL',
-    rating: 5 as const,
-  },
-]
-
 export default function TestimonialsPage() {
+  const { reviews, rating, count, isScraped } = loadReviews()
+
+  const testimonials = reviews.map((r) => ({
+    quote: r.text,
+    name: r.name,
+    date: r.date || undefined,
+    rating: r.rating,
+  }))
+
+  const reviewSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Sprinkler Medic',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: rating,
+      reviewCount: count,
+    },
+    review: testimonials.slice(0, 10).map((t) => ({
+      '@type': 'Review',
+      author: { '@type': 'Person', name: t.name },
+      reviewRating: { '@type': 'Rating', ratingValue: t.rating },
+      reviewBody: t.quote,
+    })),
+  }
+
   return (
     <>
       <Script
         id="schema-breadcrumb-testimonials"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <Script
+        id="schema-reviews"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       <main id="main-content">
         {/* Hero */}
@@ -106,8 +81,13 @@ export default function TestimonialsPage() {
                 What Our Customers Say
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-green-100">
-                North Alabama homeowners trust Sprinkler Medic. Here&apos;s why.
+                {rating} stars across {count}+ Google reviews. North Alabama homeowners trust Sprinkler Medic.
               </p>
+              {isScraped && (
+                <p className="mt-2 text-sm text-green-300/70">
+                  Reviews sourced from Google Maps
+                </p>
+              )}
             </div>
           </div>
         </section>
@@ -116,8 +96,8 @@ export default function TestimonialsPage() {
         <section className="py-20 md:py-28">
           <div className="mx-auto max-w-6xl px-6">
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {TESTIMONIALS.map((t) => (
-                <TestimonialCard key={t.name} {...t} />
+              {testimonials.map((t, i) => (
+                <TestimonialCard key={`${t.name}-${i}`} {...t} />
               ))}
             </div>
           </div>

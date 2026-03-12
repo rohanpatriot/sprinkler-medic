@@ -8,6 +8,7 @@ import { TestimonialCard } from '@/components/ui/TestimonialCard'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { ServiceAreaBadge } from '@/components/ui/ServiceAreaBadge'
 import { Button } from '@/components/ui/Button'
+import { loadReviews } from '@/lib/reviews'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -97,29 +98,19 @@ const SERVICES = [
   },
 ]
 
-const TESTIMONIALS = [
-  {
-    quote:
-      'Josh showed up exactly when he said he would, diagnosed the problem in 10 minutes, and had it fixed within the hour. Honest, fast, and fair price. Will not call anyone else.',
-    name: 'Mike T.',
-    location: 'Huntsville, AL',
-    rating: 5 as const,
-  },
-  {
-    quote:
-      'We had a main line break the night before a big outdoor event. Josh came out at 7 AM and had everything running before our guests arrived. Absolute lifesaver.',
-    name: 'Sarah K.',
-    location: 'Madison, AL',
-    rating: 5 as const,
-  },
-  {
-    quote:
-      "Had Sprinkler Medic do our spring start-up and they found two heads that needed replacing we didn't even know about. System is running better than it has in years.",
-    name: 'David R.',
-    location: 'New Market, AL',
-    rating: 5 as const,
-  },
-]
+function getHomeTestimonials() {
+  const { reviews } = loadReviews()
+  // Pick the first 3 5-star reviews with substantial text
+  return reviews
+    .filter((r) => r.rating === 5 && r.text.length > 50)
+    .slice(0, 3)
+    .map((r) => ({
+      quote: r.text,
+      name: r.name,
+      date: r.date || undefined,
+      rating: r.rating,
+    }))
+}
 
 export default function HomePage() {
   return (
@@ -232,8 +223,8 @@ export default function HomePage() {
               subtext="North Alabama homeowners trust Sprinkler Medic. Here's why."
             />
             <div className="mt-12 grid gap-6 md:grid-cols-3">
-              {TESTIMONIALS.map((t) => (
-                <TestimonialCard key={t.name} {...t} />
+              {getHomeTestimonials().map((t, i) => (
+                <TestimonialCard key={`${t.name}-${i}`} {...t} />
               ))}
             </div>
             <div className="mt-10 text-center">
