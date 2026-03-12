@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Scraper tooling — not part of the Next.js build
+    "scrapers/**",
   ]),
 ]);
 
