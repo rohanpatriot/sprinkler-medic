@@ -34,7 +34,7 @@ export function MobileCTABar() {
       {/* Book Service */}
       <a
         href="/booking"
-        className="flex flex-1 items-center justify-center gap-2 bg-amber-600 font-bold text-white transition-colors duration-150 hover:bg-amber-700 active:bg-amber-800"
+        className="flex flex-1 items-center justify-center gap-2 bg-blue-600 font-bold text-white transition-colors duration-150 hover:bg-blue-700 active:bg-blue-800"
         aria-label="Book a service online"
       >
         <svg

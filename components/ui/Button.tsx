@@ -18,7 +18,7 @@ interface ButtonProps {
 const variantClasses: Record<ButtonVariant, string> = {
   primary:
     'bg-green-600 text-white hover:bg-green-700 border-2 border-transparent',
-  cta: 'bg-amber-600 text-white hover:bg-amber-700 border-2 border-transparent',
+  cta: 'bg-green-600 text-white hover:bg-green-700 border-2 border-transparent',
   secondary:
     'bg-transparent text-green-600 border-2 border-green-600 hover:bg-green-50',
   ghost: 'bg-transparent text-green-600 border-2 border-transparent hover:underline',

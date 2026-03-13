@@ -86,7 +86,7 @@ export default function BookingPage() {
                 {/* Online booking placeholder */}
                 <div className="mt-6 rounded-xl border border-slate-200 bg-white p-6">
                   <div className="flex items-start gap-4">
-                    <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-amber-100 text-amber-700">
+                    <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-green-100 text-green-700">
                       <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
                       </svg>
@@ -100,7 +100,7 @@ export default function BookingPage() {
                         href="https://app.housecallpro.com/book/sprinkler-medic"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="mt-3 inline-flex items-center gap-2 rounded-lg bg-amber-600 px-5 py-2.5 font-bold text-white transition-colors hover:bg-amber-700"
+                        className="mt-3 inline-flex items-center gap-2 rounded-lg bg-green-600 px-5 py-2.5 font-bold text-white transition-colors hover:bg-green-700"
                       >
                         Book on HouseCall Pro
                         <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">

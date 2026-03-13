@@ -103,7 +103,7 @@ export function Header() {
             </a>
             <Link
               href="/booking"
-              className="rounded-lg bg-amber-600 px-4 py-2 text-sm font-bold text-white transition-colors duration-150 hover:bg-amber-700 active:scale-95"
+              className="rounded-lg bg-green-600 px-4 py-2 text-sm font-bold text-white transition-colors duration-150 hover:bg-green-700 active:scale-95"
             >
               Book Now
             </Link>

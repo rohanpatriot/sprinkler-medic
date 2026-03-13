@@ -37,18 +37,6 @@
   --color-blue-800: #1e40af;
   --color-blue-900: #1e3a8a;
 
-  /* Amber — CTAs and urgency accents */
-  --color-amber-50: #fffbeb;
-  --color-amber-100: #fef3c7;
-  --color-amber-200: #fde68a;
-  --color-amber-300: #fcd34d;
-  --color-amber-400: #fbbf24;
-  --color-amber-500: #f59e0b;
-  --color-amber-600: #d97706;
-  --color-amber-700: #b45309;
-  --color-amber-800: #92400e;
-  --color-amber-900: #78350f;
-
   /* Neutral — Slate scale for text and backgrounds */
   --color-neutral-50: #f8fafc;
   --color-neutral-100: #f1f5f9;
@@ -66,8 +54,8 @@
   --color-primary-dark: var(--color-brand-700);
   --color-primary-light: var(--color-brand-50);
   --color-secondary: var(--color-blue-600);
-  --color-cta: var(--color-amber-600);
-  --color-cta-hover: var(--color-amber-700);
+  --color-cta: var(--color-brand-600);
+  --color-cta-hover: var(--color-brand-700);
   --color-surface: var(--color-neutral-50);
   --color-border: var(--color-neutral-200);
   --color-text-primary: var(--color-neutral-900);

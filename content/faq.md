@@ -42,7 +42,7 @@ Our spring start-up includes turning on the water supply, running each zone to c
 
 ### Q: Why do I need to winterize my irrigation system?
 
-Water left in underground pipes, heads, and valves can freeze when temperatures drop below 32°F. When water freezes, it expands — and that expansion can crack pipes, split heads, and damage valves. A proper winterization removes all the water from your system using compressed air before freezes arrive. It's a straightforward service that protects a significant investment. North Alabama does get hard freezes — skipping winterization is a gamble that often doesn't pay off.
+Water left in underground pipes, heads, and valves can freeze when temperatures drop below 32°F. When water freezes, it expands — and that expansion can crack pipes, split heads, and damage valves. A proper winterization removes all the water from your system using compressed air before freezes arrive. It's a straightforward service that protects a significant investment. Huntsville, Madison, Decatur, Athens, and communities across Northern Alabama all see hard freezes — skipping winterization is a gamble that often doesn't pay off.
 
 ---
 

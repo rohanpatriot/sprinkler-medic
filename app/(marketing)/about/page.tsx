@@ -217,7 +217,7 @@ export default function AboutPage() {
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
               href={PHONE_HREF}
-              className="inline-flex items-center gap-2 rounded-lg bg-amber-500 px-8 py-4 text-lg font-bold text-white transition-colors hover:bg-amber-600 active:scale-95"
+              className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-4 text-lg font-bold text-green-700 transition-colors hover:bg-green-50 active:scale-95"
             >
               Call {PHONE_NUMBER}
             </a>

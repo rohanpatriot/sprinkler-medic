@@ -68,7 +68,7 @@ export default function OgImage() {
         {/* Phone */}
         <div
           style={{
-            background: '#d97706',
+            background: '#2563eb',
             color: 'white',
             fontSize: '36px',
             fontWeight: 700,
