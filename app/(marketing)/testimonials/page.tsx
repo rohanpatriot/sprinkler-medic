@@ -33,7 +33,7 @@ const PHONE_HREF = 'tel:+12566792934'
 const PHONE_NUMBER = '(256) 679-2934'
 
 export default function TestimonialsPage() {
-  const { reviews, rating, count, isScraped } = loadReviews()
+  const { reviews, rating, count } = loadReviews()
 
   const testimonials = reviews.map((r) => ({
     quote: r.text,
@@ -81,13 +81,8 @@ export default function TestimonialsPage() {
                 What Our Customers Say
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-green-100">
-                Rated {rating} stars on Google with {count} reviews. North Alabama homeowners trust Sprinkler Medic.
+                {rating} stars across {count} customer reviews. North Alabama homeowners trust Sprinkler Medic.
               </p>
-              {isScraped && (
-                <p className="mt-2 text-sm text-green-300/70">
-                  Reviews sourced from Google Maps
-                </p>
-              )}
             </div>
           </div>
         </section>

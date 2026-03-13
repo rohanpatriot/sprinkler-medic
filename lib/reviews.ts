@@ -91,17 +91,48 @@ const FALLBACK_REVIEWS: ScrapedReview[] = [
   },
 ]
 
+/** Hand-picked reviews covering a range of services and dates. */
+const CURATED_NAMES = new Set([
+  'Phyllis Cox',         // Mar 2025 — repair, start-up, winterization, maintenance
+  'Geoffrey Embrey',     // Apr 2025 — names Josh and technician
+  'Lydia Edwards',       // Apr 2025 — loyal multi-year customer
+  'William Seltzer',     // May 2025 — valve/line repair, mentions Josh
+  'Sharon Ivy',          // May 2025 — 6-year customer, multiple services
+  'J.R. Wright',         // Jun 2025 — thorough and quick
+  'Patrick Davis',       // Jul 2025 — patient, knowledgeable, methodical
+  'ANITA HARRISON',      // Aug 2025 — word-of-mouth recommendation
+  'Shondra Seebeck',     // Aug 2025 — line repair + shut-off valve install
+  'Mark Stiles',         // Sep 2025 — diagnosed problem, replaced controller
+  'Lorenzo Thomas',      // Sep 2025 — professional, expert team
+  'Sabrina Nodal',       // Oct 2025 — swift, above and beyond
+  'Sandra Coogan',       // Oct 2025 — explains every step, clean work
+  'Kim Moon',            // Oct 2025 — emergency leak fix
+  'Eddie Mazzeo',        // Dec 2025 — second to none
+  'Al Patterson',        // Dec 2025 — winterization on auto-pilot
+  'Wendy James',         // Dec 2025 — responsive, shows up, great service
+  'Ali Morgan',          // Feb 2026 — leak found via utility bill
+  'Jimmy Valrie',        // Feb 2026 — outstanding customer service
+  'George Gallo',        // Mar 2026 — spring startup, zone advice
+  'Nancy Bucher',        // Mar 2026 — years of service, installation + maintenance
+  'John Chizmar',        // Mar 2026 — trustworthy, no upselling
+  'Birgit Gatlin',       // Mar 2026 — efficient head replacement
+  'Charlotte Ball',      // Mar 2026 — thorough system check
+])
+
 export function loadReviews(): ReviewsResult {
   try {
     const filePath = path.join(process.cwd(), 'content', 'reviews.json')
     const raw = fs.readFileSync(filePath, 'utf-8')
     const data: ReviewsData = JSON.parse(raw)
     if (data.reviews && data.reviews.length > 0) {
+      const curated = data.reviews.filter(
+        (r) => r.text.length > 20 && CURATED_NAMES.has(r.name),
+      )
       return {
-        reviews: data.reviews.filter((r) => r.text.length > 20),
+        reviews: curated,
         rating: data.rating,
-        count: data.totalReviews,
-        isScraped: true,
+        count: curated.length,
+        isScraped: false,
       }
     }
   } catch {
