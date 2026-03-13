@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 const PHONE_NUMBER = '(256) 679-2934'
@@ -30,17 +31,19 @@ export function Footer() {
           {/* Column 1 — Brand */}
           <div>
             <Link href="/" className="inline-flex items-center gap-2 mb-4" aria-label="Sprinkler Medic Home">
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-green-600" aria-hidden="true">
-                <svg className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
-                </svg>
-              </div>
+              <Image
+                src="/logo.png"
+                alt="Sprinkler Medic logo"
+                width={36}
+                height={36}
+                aria-hidden="true"
+              />
               <span className="text-lg font-bold text-white">
                 Sprinkler <span className="text-green-400">Medic</span>
               </span>
             </Link>
             <p className="text-sm leading-relaxed text-slate-400">
-              Professional irrigation installation, repair, and maintenance serving North Alabama since 2015.
+              Professional irrigation installation, repair, and maintenance serving Northern Alabama since 2015.
             </p>
             <div className="mt-4 flex gap-3">
               {/* Facebook */}
@@ -66,6 +69,40 @@ export function Footer() {
                 <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" />
                 </svg>
+              </a>
+              {/* Nextdoor */}
+              <a
+                href="https://nextdoor.com/page/sprinkler-medic-new-market-al"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 text-slate-400 transition-colors hover:bg-green-600 hover:text-white"
+                aria-label="Sprinkler Medic on Nextdoor"
+              >
+                <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2L3 9v13h6v-7h6v7h6V9L12 2zm0 2.5l7 5.6V20h-3v-7H8v7H5V10.1L12 4.5z" />
+                </svg>
+              </a>
+              {/* Yelp */}
+              <a
+                href="https://m.yelp.com/biz/sprinkler-medic-new-market"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 text-slate-400 transition-colors hover:bg-green-600 hover:text-white"
+                aria-label="Sprinkler Medic on Yelp"
+              >
+                <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20.16 12.73l-4.46 1.46c-.36.13-.53-.04-.4-.4l1.6-4.9c.13-.36.5-.46.8-.2l3.06 2.54c.3.25.3.7-.6.5zM12.5 8.98l-4.48-2.7c-.3-.18-.3-.6.04-.76l4.6-2.04c.34-.15.66.1.66.47v5.1c0 .37-.3.55-.62.43l-.2-.5zm-7.4 3.1c-.46.06-.7.4-.62.84l.7 4.3c.08.44.48.64.82.42l3.64-2.13c.34-.2.38-.58.1-.82L5.57 11.9c-.24-.22-.6-.22-.77.18zm6.98 6.36c-.22.28-.1.66.28.74l4.8 1.1c.38.08.62-.2.5-.56l-1.36-4.54c-.1-.36-.44-.48-.74-.24l-3.48 3.5zm-5.3-9.8c.28.22.62.1.74-.28l1.1-4.8c.08-.38-.2-.62-.56-.5L3.5 5.42c-.36.1-.48.44-.24.74l3.52 3.48z" />
+                </svg>
+              </a>
+              {/* BBB */}
+              <a
+                href="https://www.bbb.org/us/al/huntsville/profile/irrigation-repair/sprinkler-medic-0513-900234512"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 text-slate-400 transition-colors hover:bg-green-600 hover:text-white"
+                aria-label="Sprinkler Medic on Better Business Bureau"
+              >
+                <span className="text-[9px] font-bold leading-none">BBB</span>
               </a>
             </div>
           </div>
@@ -142,7 +179,7 @@ export function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                 </svg>
-                <span>Huntsville, AL &amp; North Alabama</span>
+                <span>Huntsville, AL &amp; Northern Alabama</span>
               </li>
               <li className="flex items-start gap-2 text-slate-400">
                 <svg className="mt-0.5 h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
