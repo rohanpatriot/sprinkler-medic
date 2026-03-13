@@ -3,7 +3,7 @@
 ## Hero Section
 
 **Headline:**
-Landscape Lighting Installation in North Alabama
+Landscape Lighting Installation in Northern Alabama
 
 **Subheadline:**
 Show off your property after dark. Add security, ambiance, and curb appeal with professionally designed outdoor lighting.
@@ -42,7 +42,7 @@ Low-voltage installation is also less invasive. Wiring runs shallow, and the tra
 
 We don't sell packages — we design systems for how your specific yard is laid out. During our site visit, we walk the property with you, talk about what you want to highlight, and plan fixture placement and aiming before any installation begins.
 
-### Serving All of North Alabama
+### Serving All of Northern Alabama
 
 We install outdoor lighting systems in Huntsville, New Market, Madison, Gurley, Decatur, Athens, Toney, Hazel Green, Owens Cross Road, and surrounding areas.
 

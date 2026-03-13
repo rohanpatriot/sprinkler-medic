@@ -9,7 +9,7 @@
 ## 1. Brand Identity
 
 ### Positioning
-Sprinkler Medic is a trusted local irrigation company with 11 years of experience in North Alabama. The brand communicates expertise, reliability, and local community ties. Every design decision should reinforce: **"These are professionals you can trust to protect your lawn investment."**
+Sprinkler Medic is a trusted local irrigation company with 11 years of experience in Northern Alabama. The brand communicates expertise, reliability, and local community ties. Every design decision should reinforce: **"These are professionals you can trust to protect your lawn investment."**
 
 ### Tone
 - Professional but approachable
@@ -298,7 +298,7 @@ Each badge:
   - px-3 py-1, text-sm font-medium
   - Optional: map pin icon prefix (12px)
 
-Section title above: "Serving North Alabama"
+Section title above: "Serving Northern Alabama"
 ```
 
 ---
@@ -413,7 +413,7 @@ Common grid patterns:
 
 ## 9. Photography & Image Guidelines
 
-- **Hero images:** Prefer real job photos (sprinkler heads, turf, North Alabama landscapes)
+- **Hero images:** Prefer real job photos (sprinkler heads, turf, Northern Alabama landscapes)
 - **About page:** Josh Gamble professional headshot required
 - **Gallery:** Before/after pairs — consistent sizing (4:3 ratio)
 - **Image dimensions:**

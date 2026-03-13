@@ -6,14 +6,14 @@ import { Button } from '@/components/ui/Button'
 export const metadata: Metadata = {
   title: 'Irrigation & Landscaping Project Gallery | Sprinkler Medic',
   description:
-    'Browse before/after photos, team shots, and completed irrigation jobs across north Alabama. Sprinkler Medic — licensed & insured since 2015.',
+    'Browse before/after photos, team shots, and completed irrigation jobs across north Alabama. Sprinkler Medic — licensed & insured irrigation company since 2015.',
   alternates: {
     canonical: 'https://sprinklermedic.com/gallery',
   },
   openGraph: {
     title: 'Irrigation & Landscaping Project Gallery | Sprinkler Medic',
     description:
-      'Browse before/after photos, team shots, and completed irrigation jobs across north Alabama. Sprinkler Medic — licensed & insured since 2015.',
+      'Browse before/after photos, team shots, and completed irrigation jobs across north Alabama. Sprinkler Medic — licensed & insured irrigation company since 2015.',
     url: 'https://sprinklermedic.com/gallery',
   },
 }
@@ -78,7 +78,7 @@ export default function GalleryPage() {
                 Our Work
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-green-100">
-                Real projects, real results. Browse our completed irrigation installations, repairs, and outdoor lighting work across North Alabama.
+                Real projects, real results. Browse our completed irrigation installations, repairs, and outdoor lighting work across Northern Alabama.
               </p>
             </div>
           </div>

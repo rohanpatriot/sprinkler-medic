@@ -3,7 +3,7 @@
 ## Hero Section
 
 **Headline:**
-We've Been Taking Care of North Alabama's Irrigation Systems Since 2015
+We've Been Taking Care of Northern Alabama's Irrigation Systems Since 2015
 
 **Subheadline:**
 Locally owned, fully licensed, and built on trust — this is Sprinkler Medic.

@@ -41,7 +41,7 @@ Mobile:
   ┌─────────────────────────────────────┐
   │  [Background: turf/sprinkler photo] │
   │                                     │
-  │  North Alabama's Most Trusted        │
+  │  Northern Alabama's Most Trusted        │
   │  Irrigation Specialists             │
   │                                     │
   │  11 years. 500+ properties.         │
@@ -56,7 +56,7 @@ Desktop:
   │ [Background: hero photo, 16:9 overlay 60% dark]             │
   │                                                              │
   │                                                              │
-  │    North Alabama's Most Trusted         [                ]   │
+  │    Northern Alabama's Most Trusted         [                ]   │
   │    Irrigation Specialists               [  Form sidebar  ]   │
   │                                         [                ]   │
   │    11 years · 500+ properties           [                ]   │
@@ -102,7 +102,7 @@ Heading: "Local Experts Who Show Up On Time"
 ### Testimonials Preview
 ```
 Eyebrow: "What Customers Say"
-Heading: "Trusted by 500+ North Alabama Homeowners"
+Heading: "Trusted by 500+ Northern Alabama Homeowners"
 
 3 TestimonialCards side by side (desktop) / stacked (mobile)
 
@@ -112,10 +112,10 @@ Heading: "Trusted by 500+ North Alabama Homeowners"
 ### Service Area
 ```
 Eyebrow: "Our Coverage"
-Heading: "Serving North Alabama"
+Heading: "Serving Northern Alabama"
 
 [ServiceAreaBadge grid — 16 cities/counties]
-[Map image: North Alabama counties highlighted]
+[Map image: Northern Alabama counties highlighted]
 ```
 
 ### Final CTA Banner
@@ -148,7 +148,7 @@ Heading: "Started in 2013 With One Truck"
 3-paragraph narrative:
   - Why Josh started Sprinkler Medic
   - His approach to the work (quality over volume)
-  - Community ties to North Alabama
+  - Community ties to Northern Alabama
 
 [Inline stats: 11 Years / 500+ Projects / 100% Local]
 ```
@@ -178,7 +178,7 @@ Logo strip: Licensed · Bonded · Insured · [Any industry certs]
 
 ### Hero
 ```
-H1: "Irrigation Services in North Alabama"
+H1: "Irrigation Services in Northern Alabama"
 Subtext: "From new system design to emergency repairs — we do it all."
 ```
 
@@ -258,7 +258,7 @@ FAQAccordion: 4–6 questions specific to this service
 ### Hero
 ```
 H1: "Our Work Speaks for Itself"
-Subtext: "500+ irrigation projects across North Alabama."
+Subtext: "500+ irrigation projects across Northern Alabama."
 ```
 
 ### Filter Bar
@@ -356,7 +356,7 @@ Right (Contact Info):
 
 ### Service Area Map
 ```
-[Embedded Google Maps iframe — North Alabama service area]
+[Embedded Google Maps iframe — Northern Alabama service area]
 [ServiceAreaBadge below map]
 ```
 

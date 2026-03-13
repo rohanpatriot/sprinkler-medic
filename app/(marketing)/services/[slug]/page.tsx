@@ -33,9 +33,9 @@ const SERVICES: Record<string, ServiceData> = {
     title: 'Irrigation Service & Repair',
     metaTitle: 'Sprinkler Repair Huntsville AL | Same-Day Service',
     metaDescription:
-      'Fast, reliable sprinkler repair in Huntsville and North Alabama. Broken heads, faulty valves, controller issues. Same-day service available. Call (256) 679-2934.',
+      'Fast, reliable sprinkler repair in Huntsville and Northern Alabama. Broken heads, faulty valves, controller issues. Same-day service available. Call (256) 679-2934.',
     hero: {
-      headline: 'Fast, Reliable Sprinkler Repair in Huntsville & North Alabama',
+      headline: 'Fast, Reliable Sprinkler Repair in Huntsville & Northern Alabama',
       subheadline: 'Broken heads, leaky valves, controller issues — we diagnose and fix it right the first time.',
       cta: 'Call (256) 679-2934',
     },
@@ -69,11 +69,11 @@ const SERVICES: Record<string, ServiceData> = {
   },
   'irrigation-installation': {
     title: 'Irrigation Installation',
-    metaTitle: 'Sprinkler System Installation North Alabama | Sprinkler Medic',
+    metaTitle: 'Sprinkler System Installation Northern Alabama | Sprinkler Medic',
     metaDescription:
-      'Professional irrigation system design and installation in Huntsville and North Alabama. New construction and retrofit. Free estimates. Call (256) 679-2934.',
+      'Professional irrigation system design and installation in Huntsville and Northern Alabama. New construction and retrofit. Free estimates. Call (256) 679-2934.',
     hero: {
-      headline: 'Professional Irrigation Installation for North Alabama Homes & Businesses',
+      headline: 'Professional Irrigation Installation for Northern Alabama Homes & Businesses',
       subheadline: 'A properly designed system waters your lawn efficiently — without the guesswork, the overwatering, or the dead zones.',
       cta: 'Get a Free Estimate: (256) 679-2934',
     },
@@ -94,8 +94,8 @@ const SERVICES: Record<string, ServiceData> = {
         ],
       },
       {
-        heading: 'Built for North Alabama',
-        body: "North Alabama's clay-heavy soil, summer heat, and seasonal rain patterns require a thoughtful approach to irrigation design. We've installed systems in yards all across this region and know what works here — and what doesn't.",
+        heading: 'Built for Northern Alabama',
+        body: "Northern Alabama's clay-heavy soil, summer heat, and seasonal rain patterns require a thoughtful approach to irrigation design. We've installed systems in yards all across this region and know what works here — and what doesn't.",
       },
       {
         heading: 'New Construction or Retrofit',
@@ -109,9 +109,9 @@ const SERVICES: Record<string, ServiceData> = {
     title: 'Leak Detection',
     metaTitle: 'Irrigation Leak Detection Huntsville AL | Sprinkler Medic',
     metaDescription:
-      'Professional irrigation leak detection in Huntsville and North Alabama. Soggy spots, high water bills — we find and fix it fast. Call (256) 679-2934.',
+      'Professional irrigation leak detection in Huntsville and Northern Alabama. Soggy spots, high water bills — we find and fix it fast. Call (256) 679-2934.',
     hero: {
-      headline: 'Irrigation Leak Detection in Huntsville & North Alabama',
+      headline: 'Irrigation Leak Detection in Huntsville & Northern Alabama',
       subheadline: 'Soggy spots. Spiking water bills. Green patches where nothing should be green. We find the source and fix it.',
       cta: 'Call (256) 679-2934',
     },
@@ -144,11 +144,11 @@ const SERVICES: Record<string, ServiceData> = {
   },
   'spring-startup-winterization': {
     title: 'Spring Start-Up & Winterization',
-    metaTitle: 'Sprinkler Winterization & Spring Start-Up | North Alabama',
+    metaTitle: 'Sprinkler Winterization & Spring Start-Up | Northern Alabama',
     metaDescription:
-      'Irrigation winterization and spring start-up service in Huntsville, Madison, and North Alabama. Protect your system before freezes. Call (256) 679-2934.',
+      'Irrigation winterization and spring start-up service in Huntsville, Madison, and Northern Alabama. Protect your system before freezes. Call (256) 679-2934.',
     hero: {
-      headline: 'Seasonal Irrigation Service for North Alabama Homeowners',
+      headline: 'Seasonal Irrigation Service for Northern Alabama Homeowners',
       subheadline: 'Get your system ready for summer. Protect it before winter. We handle both, so you don\'t have to think about it.',
       cta: 'Schedule Service: (256) 679-2934',
     },
@@ -181,7 +181,7 @@ const SERVICES: Record<string, ServiceData> = {
         ],
       },
       {
-        heading: 'Why It Matters in North Alabama',
+        heading: 'Why It Matters in Northern Alabama',
         body: "While north Alabama doesn't see the extreme winters of further north states, hard freezes still happen — and they happen quickly. One overnight freeze with water still in your lines is all it takes. It's a small service that prevents a large repair bill.",
       },
     ],
@@ -192,9 +192,9 @@ const SERVICES: Record<string, ServiceData> = {
     title: 'Outdoor Lighting',
     metaTitle: 'Landscape Lighting Installation Huntsville AL | Sprinkler Medic',
     metaDescription:
-      'Professional landscape lighting installation in Huntsville and North Alabama. Low-voltage LED systems designed for your property. Call (256) 679-2934.',
+      'Professional landscape lighting installation in Huntsville and Northern Alabama. Low-voltage LED systems designed for your property. Call (256) 679-2934.',
     hero: {
-      headline: 'Landscape Lighting Installation in North Alabama',
+      headline: 'Landscape Lighting Installation in Northern Alabama',
       subheadline: 'Show off your property after dark. Add security, ambiance, and curb appeal with professionally designed outdoor lighting.',
       cta: 'Call (256) 679-2934',
     },
@@ -229,9 +229,9 @@ const SERVICES: Record<string, ServiceData> = {
     title: 'Drainage',
     metaTitle: 'Yard Drainage Solutions Huntsville AL | Sprinkler Medic',
     metaDescription:
-      'French drains, catch basins, and yard drainage solutions in Huntsville and North Alabama. Fix standing water and foundation drainage issues. Call (256) 679-2934.',
+      'French drains, catch basins, and yard drainage solutions in Huntsville and Northern Alabama. Fix standing water and foundation drainage issues. Call (256) 679-2934.',
     hero: {
-      headline: 'Yard Drainage Solutions in Huntsville & North Alabama',
+      headline: 'Yard Drainage Solutions in Huntsville & Northern Alabama',
       subheadline: 'Standing water kills grass, damages foundations, and breeds mosquitoes. We fix it at the source.',
       cta: 'Call (256) 679-2934',
     },
@@ -396,7 +396,7 @@ export default async function ServicePage({
 
                 {/* Service Area */}
                 <div className="mt-12">
-                  <h2 className="text-2xl font-bold text-slate-900">Serving All of North Alabama</h2>
+                  <h2 className="text-2xl font-bold text-slate-900">Serving All of Northern Alabama</h2>
                   <p className="mt-3 text-slate-600">
                     We provide {service.title.toLowerCase()} services throughout the following communities:
                   </p>

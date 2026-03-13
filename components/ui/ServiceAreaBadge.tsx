@@ -30,7 +30,7 @@ export function ServiceAreaBadge({
     <div>
       {showTitle && (
         <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-green-600">
-          Serving North Alabama
+          Serving Northern Alabama
         </p>
       )}
       <div className="flex flex-wrap gap-2" role="list" aria-label="Service areas">

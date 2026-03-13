@@ -35,7 +35,7 @@ export default function OgImage() {
             marginBottom: '32px',
           }}
         >
-          North Alabama&apos;s Irrigation Experts
+          Northern Alabama&apos;s Irrigation Experts
         </div>
 
         {/* Logo / brand name */}

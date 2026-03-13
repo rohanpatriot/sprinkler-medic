@@ -37,7 +37,7 @@
 | Secondary | irrigation contractor Huntsville | 100-200 | Commercial |
 | Secondary | sprinkler installation and repair AL | 50-100 | Commercial |
 
-**Target H1:** "Irrigation & Sprinkler Services in North Alabama"
+**Target H1:** "Irrigation & Sprinkler Services in Northern Alabama"
 **Meta Title:** "Irrigation Services Huntsville AL | Sprinkler Medic"
 **Meta Description:** "Full-service irrigation company serving Huntsville and north Alabama. Repair, installation, leak detection, winterization, outdoor lighting & drainage."
 
@@ -153,7 +153,7 @@
 | Supporting | local irrigation contractor north Alabama | Commercial |
 | Supporting | licensed insured sprinkler company Alabama | Commercial |
 
-**Target H1:** "About Sprinkler Medic — Locally Owned, North Alabama"
+**Target H1:** "About Sprinkler Medic — Locally Owned, Northern Alabama"
 
 ---
 

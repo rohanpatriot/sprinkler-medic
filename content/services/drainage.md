@@ -3,7 +3,7 @@
 ## Hero Section
 
 **Headline:**
-Yard Drainage Solutions in Huntsville & North Alabama
+Yard Drainage Solutions in Huntsville & Northern Alabama
 
 **Subheadline:**
 Standing water kills grass, damages foundations, and breeds mosquitoes. We fix it at the source.
@@ -55,7 +55,7 @@ We start with a site assessment — walking the property during or after rain co
 
 You'll get a clear explanation of what we propose and why before any work starts.
 
-### Serving All of North Alabama
+### Serving All of Northern Alabama
 
 We provide drainage services in Huntsville, New Market, Madison, Gurley, Decatur, Athens, Toney, Hazel Green, Owens Cross Road, and surrounding areas.
 

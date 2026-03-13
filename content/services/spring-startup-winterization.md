@@ -3,7 +3,7 @@
 ## Hero Section
 
 **Headline:**
-Seasonal Irrigation Service for North Alabama Homeowners
+Seasonal Irrigation Service for Northern Alabama Homeowners
 
 **Subheadline:**
 Get your system ready for summer. Protect it before winter. We handle both, so you don't have to think about it.
@@ -50,11 +50,11 @@ Our winterization service includes:
 
 We use properly sized compressors rated for irrigation systems — not undersized equipment that leaves water behind.
 
-### Why It Matters in North Alabama
+### Why It Matters in Northern Alabama
 
 While north Alabama doesn't see the extreme winters of further north states, hard freezes still happen — and they happen quickly. One overnight freeze with water still in your lines is all it takes. It's a small service that prevents a large repair bill.
 
-### Serving All of North Alabama
+### Serving All of Northern Alabama
 
 We provide spring start-up and winterization services in Huntsville, New Market, Madison, Gurley, Decatur, Athens, Toney, Hazel Green, Owens Cross Road, and surrounding areas.
 

@@ -3,7 +3,7 @@
 ## Hero Section
 
 **Headline:**
-Irrigation Leak Detection in Huntsville & North Alabama
+Irrigation Leak Detection in Huntsville & Northern Alabama
 
 **Subheadline:**
 Soggy spots. Spiking water bills. Green patches where nothing should be green. We find the source and fix it.
@@ -40,7 +40,7 @@ Once we've pinpointed the problem, we give you a clear explanation of what we fo
 
 Leak detection isn't just about finding the problem — it's about fixing it. Our team handles the repair on the same visit whenever possible, so you're not coordinating multiple appointments. We patch lines, replace valves, fix connections, and confirm the system is holding pressure before we leave.
 
-### Serving All of North Alabama
+### Serving All of Northern Alabama
 
 We provide leak detection services throughout Huntsville, New Market, Madison, Gurley, Decatur, Athens, Toney, Hazel Green, Owens Cross Road, and surrounding communities.
 

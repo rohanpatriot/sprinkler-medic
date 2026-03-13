@@ -7,14 +7,14 @@ import { Button } from '@/components/ui/Button'
 export const metadata: Metadata = {
   title: 'Irrigation FAQ | Sprinkler Medic Huntsville AL',
   description:
-    'Answers to common questions about irrigation repair, installation, winterization & more. Serving north Alabama since 2015. Call (256) 679-2934.',
+    'Common questions about sprinkler repair, installation, and winterization in north Alabama. Expert answers from Sprinkler Medic, serving Huntsville since 2015.',
   alternates: {
     canonical: 'https://sprinklermedic.com/faq',
   },
   openGraph: {
     title: 'Irrigation FAQ | Sprinkler Medic Huntsville AL',
     description:
-      'Answers to common questions about irrigation repair, installation, winterization & more. Serving north Alabama since 2015. Call (256) 679-2934.',
+      'Common questions about sprinkler repair, installation, and winterization in north Alabama. Expert answers from Sprinkler Medic, serving Huntsville since 2015.',
     url: 'https://sprinklermedic.com/faq',
   },
 }
@@ -131,7 +131,7 @@ const FAQ_ITEMS = [
   {
     question: 'Why do I need to winterize my irrigation system?',
     answer:
-      "Water left in underground pipes, heads, and valves can freeze when temperatures drop below 32°F. A proper winterization removes all the water from your system using compressed air before freezes arrive. North Alabama does get hard freezes — skipping winterization is a gamble that often doesn't pay off.",
+      "Water left in underground pipes, heads, and valves can freeze when temperatures drop below 32°F. A proper winterization removes all the water from your system using compressed air before freezes arrive. Northern Alabama does get hard freezes — skipping winterization is a gamble that often doesn't pay off.",
   },
   {
     question: 'Can you install an irrigation system in an existing yard?',

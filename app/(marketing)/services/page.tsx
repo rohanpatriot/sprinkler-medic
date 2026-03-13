@@ -141,7 +141,7 @@ export default function ServicesPage() {
             <SectionHeader
               eyebrow="What We Do"
               heading="Our Services"
-              subtext="Professional irrigation and outdoor systems services for homeowners and businesses across North Alabama."
+              subtext="Professional irrigation and outdoor systems services for homeowners and businesses across Northern Alabama."
             />
             <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {SERVICES.map((service) => (
@@ -164,7 +164,7 @@ export default function ServicesPage() {
                 <ul className="mt-8 space-y-4">
                   {[
                     'Same-day service available for most repairs',
-                    '11+ years of irrigation experience in North Alabama',
+                    '11+ years of irrigation experience in Northern Alabama',
                     'We carry common parts on the truck — no return visits',
                     'Transparent pricing — you approve before we start',
                     '24/7 emergency response for urgent failures',

@@ -3,7 +3,7 @@
 ## Hero Section
 
 **Headline:**
-Fast, Reliable Sprinkler Repair in Huntsville & North Alabama
+Fast, Reliable Sprinkler Repair in Huntsville & Northern Alabama
 
 **Subheadline:**
 Broken heads, leaky valves, controller issues — we diagnose and fix it right the first time.
@@ -43,7 +43,7 @@ DIY sprinkler fixes often make things worse — or create new leaks and coverage
 
 When Sprinkler Medic repairs your system, we leave it better than we found it.
 
-### Serving All of North Alabama
+### Serving All of Northern Alabama
 
 We provide irrigation repair services in Huntsville, New Market, Madison, Gurley, Decatur, Athens, Toney, Hazel Green, Owens Cross Road, and surrounding areas.
 

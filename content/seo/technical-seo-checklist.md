@@ -20,14 +20,14 @@
 | Page | H1 |
 |------|----|
 | Home | "Sprinkler Repair & Irrigation Services in Huntsville, AL" |
-| Services | "Irrigation & Sprinkler Services in North Alabama" |
+| Services | "Irrigation & Sprinkler Services in Northern Alabama" |
 | Irrigation Repair | "Sprinkler & Irrigation Repair in Huntsville, AL" |
 | Irrigation Installation | "Irrigation System Installation in Huntsville, AL" |
 | Leak Detection | "Irrigation Leak Detection & Repair in Huntsville, AL" |
 | Winterization | "Sprinkler Winterization & Spring Start-Up — Huntsville, AL" |
 | Outdoor Lighting | "Outdoor & Landscape Lighting Installation in Huntsville, AL" |
 | Drainage | "Yard Drainage Solutions in Huntsville, AL" |
-| About | "About Sprinkler Medic — Locally Owned, North Alabama" |
+| About | "About Sprinkler Medic — Locally Owned, Northern Alabama" |
 | FAQ | "Frequently Asked Questions — Sprinkler Medic" |
 | Contact | "Contact Sprinkler Medic — Huntsville, AL" |
 

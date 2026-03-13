@@ -14,14 +14,14 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Sprinkler Repair Huntsville AL | Sprinkler Medic',
   description:
-    'Locally owned irrigation company serving north Alabama for 11+ years. Sprinkler repair, installation, leak detection & more. Licensed, insured. Call (256) 679-2934.',
+    'Locally owned irrigation company serving north Alabama for 11+ years. Sprinkler repair, installation, leak detection & more. Licensed & insured. (256) 679-2934.',
   alternates: {
     canonical: 'https://sprinklermedic.com',
   },
   openGraph: {
     title: 'Sprinkler Repair Huntsville AL | Sprinkler Medic',
     description:
-      'Locally owned irrigation company serving north Alabama for 11+ years. Sprinkler repair, installation, leak detection & more. Licensed, insured. Call (256) 679-2934.',
+      'Locally owned irrigation company serving north Alabama for 11+ years. Sprinkler repair, installation, leak detection & more. Licensed & insured. (256) 679-2934.',
     url: 'https://sprinklermedic.com',
   },
 }
@@ -122,10 +122,10 @@ export default function HomePage() {
           <div className="mx-auto max-w-6xl px-6">
             <div className="max-w-2xl">
               <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-green-300">
-                Huntsville &amp; North Alabama
+                Huntsville &amp; Northern Alabama
               </p>
               <h1 className="text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-                North Alabama&apos;s Trusted Irrigation Experts
+                Northern Alabama&apos;s Trusted Irrigation Experts
               </h1>
               <p className="mt-6 text-lg leading-relaxed text-green-100 sm:text-xl">
                 Sprinkler systems installed, repaired, and maintained the right way — by a locally owned team that&apos;s been doing this for over a decade.
@@ -220,7 +220,7 @@ export default function HomePage() {
             <SectionHeader
               eyebrow="Reviews"
               heading="What Our Customers Say"
-              subtext="North Alabama homeowners trust Sprinkler Medic. Here's why."
+              subtext="Northern Alabama homeowners trust Sprinkler Medic. Here's why."
             />
             <div className="mt-12 grid gap-6 md:grid-cols-3">
               {getHomeTestimonials().map((t, i) => (
@@ -241,7 +241,7 @@ export default function HomePage() {
             <div className="text-center">
               <SectionHeader
                 eyebrow="Service Area"
-                heading="Serving North Alabama"
+                heading="Serving Northern Alabama"
                 subtext="We're based in New Market and serve communities throughout the region. If you're in the Huntsville metro or surrounding areas, we've got you covered."
               />
               <div className="mt-10 flex justify-center">

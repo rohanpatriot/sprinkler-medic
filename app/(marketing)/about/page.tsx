@@ -16,14 +16,14 @@ const breadcrumbSchema = {
 export const metadata: Metadata = {
   title: 'About Sprinkler Medic | Irrigation Huntsville AL',
   description:
-    'Meet Josh Gamble and the Sprinkler Medic team. 11 years serving north Alabama. Licensed & insured irrigation professionals based in New Market, AL.',
+    'Meet Josh Gamble and the Sprinkler Medic team. 11 years serving Huntsville and north Alabama. Licensed, insured, and trusted irrigation professionals.',
   alternates: {
     canonical: 'https://sprinklermedic.com/about',
   },
   openGraph: {
     title: 'About Sprinkler Medic | Irrigation Huntsville AL',
     description:
-      'Meet Josh Gamble and the Sprinkler Medic team. 11 years serving north Alabama. Licensed & insured irrigation professionals based in New Market, AL.',
+      'Meet Josh Gamble and the Sprinkler Medic team. 11 years serving Huntsville and north Alabama. Licensed, insured, and trusted irrigation professionals.',
     url: 'https://sprinklermedic.com/about',
   },
 }
@@ -85,7 +85,7 @@ export default function AboutPage() {
           <div className="max-w-2xl">
             <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-green-300">About Us</p>
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
-              We&apos;ve Been Taking Care of North Alabama&apos;s Irrigation Systems Since 2015
+              We&apos;ve Been Taking Care of Northern Alabama&apos;s Irrigation Systems Since 2015
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-green-100">
               Locally owned, fully licensed, and built on trust — this is Sprinkler Medic.

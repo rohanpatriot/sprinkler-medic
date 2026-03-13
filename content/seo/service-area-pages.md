@@ -19,7 +19,7 @@
 Add a dedicated section on the homepage that explicitly lists all 9 cities:
 
 ```
-Serving North Alabama Since 2015
+Serving Northern Alabama Since 2015
 We proudly serve homeowners and businesses across the Huntsville metro area, including:
 • Huntsville     • Decatur        • Toney
 • Madison        • Athens         • Hazel Green
@@ -39,7 +39,7 @@ Create one overview page that:
 - Targets broad terms: "irrigation services north Alabama", "sprinkler company near me"
 
 **URL:** `/service-areas`
-**H1:** "Irrigation & Sprinkler Services Across North Alabama"
+**H1:** "Irrigation & Sprinkler Services Across Northern Alabama"
 
 **Sample city entries:**
 ```
@@ -108,7 +108,7 @@ Launch these only after the initial site is live and once we have the content to
 For Gurley, Toney, Hazel Green, New Market, and Owens Cross Road:
 
 **Option A:** Create individual pages with genuinely local content (neighborhoods, common issues, specific job examples)
-**Option B:** Combine into a "Greater North Alabama" page that covers the smaller surrounding communities
+**Option B:** Combine into a "Greater Northern Alabama" page that covers the smaller surrounding communities
 **Option C:** Mention in the `/service-areas` overview page only
 
 **Recommendation:** Option B or C unless we have specific keyword evidence of demand in those smaller markets.

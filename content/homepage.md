@@ -3,7 +3,7 @@
 ## Hero Section
 
 **Headline:**
-North Alabama's Trusted Irrigation Experts
+Northern Alabama's Trusted Irrigation Experts
 
 **Subheadline:**
 Sprinkler systems installed, repaired, and maintained the right way — by a locally owned team that's been doing this for over a decade.
@@ -21,7 +21,7 @@ Book a Service
 - **11 Years** in Business
 - **Licensed & Insured**
 - **24/7** Emergency Service
-- Serving **North Alabama**
+- Serving **Northern Alabama**
 
 ---
 
@@ -73,7 +73,7 @@ Meet the Team
 ## Service Area Section
 
 **Headline:**
-Serving North Alabama
+Serving Northern Alabama
 
 **Body:**
 We're based in New Market and serve communities throughout the region. If you're in the Huntsville metro or surrounding areas, we've got you covered.

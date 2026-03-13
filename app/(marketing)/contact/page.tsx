@@ -6,14 +6,14 @@ import { ServiceAreaBadge } from '@/components/ui/ServiceAreaBadge'
 export const metadata: Metadata = {
   title: 'Contact Us | Sprinkler Medic (256) 679-2934',
   description:
-    'Call, email, or book online. Serving Huntsville, New Market, Madison & north Alabama. 24/7 emergency service available. (256) 679-2934.',
+    'Call, email, or book online with Sprinkler Medic. We serve Huntsville, New Market, Madison & north Alabama. 24/7 emergency irrigation service. (256) 679-2934.',
   alternates: {
     canonical: 'https://sprinklermedic.com/contact',
   },
   openGraph: {
     title: 'Contact Us | Sprinkler Medic (256) 679-2934',
     description:
-      'Call, email, or book online. Serving Huntsville, New Market, Madison & north Alabama. 24/7 emergency service available. (256) 679-2934.',
+      'Call, email, or book online with Sprinkler Medic. We serve Huntsville, New Market, Madison & north Alabama. 24/7 emergency irrigation service. (256) 679-2934.',
     url: 'https://sprinklermedic.com/contact',
   },
 }

@@ -3,7 +3,7 @@
 ## Hero Section
 
 **Headline:**
-Professional Irrigation Installation for North Alabama Homes & Businesses
+Professional Irrigation Installation for Northern Alabama Homes & Businesses
 
 **Subheadline:**
 A properly designed system waters your lawn efficiently — without the guesswork, the overwatering, or the dead zones.
@@ -35,15 +35,15 @@ From there, we handle everything:
 - **Backflow preventer installation** — required and properly permitted
 - **Final walkthrough** — we walk every zone with you and explain how to use the system
 
-### Built for North Alabama
+### Built for Northern Alabama
 
-North Alabama's clay-heavy soil, summer heat, and seasonal rain patterns require a thoughtful approach to irrigation design. We've installed systems in yards all across this region and know what works here — and what doesn't.
+Northern Alabama's clay-heavy soil, summer heat, and seasonal rain patterns require a thoughtful approach to irrigation design. We've installed systems in yards all across this region and know what works here — and what doesn't.
 
 ### New Construction or Retrofit
 
 Installing a new system during construction is the most cost-effective time. But we also retrofit existing yards all the time. Whether you're starting from scratch or adding to an existing setup, we'll design a solution that fits.
 
-### Serving All of North Alabama
+### Serving All of Northern Alabama
 
 We install irrigation systems throughout Huntsville, New Market, Madison, Gurley, Decatur, Athens, Toney, Hazel Green, Owens Cross Road, and surrounding areas.
 

@@ -125,9 +125,9 @@ export function loadReviews(): ReviewsResult {
     const raw = fs.readFileSync(filePath, 'utf-8')
     const data: ReviewsData = JSON.parse(raw)
     if (data.reviews && data.reviews.length > 0) {
-      const curated = data.reviews.filter(
-        (r) => r.text.length > 20 && CURATED_NAMES.has(r.name),
-      )
+      const curated = data.reviews
+        .filter((r) => r.text.length > 20 && CURATED_NAMES.has(r.name))
+        .reverse()
       return {
         reviews: curated,
         rating: data.rating,

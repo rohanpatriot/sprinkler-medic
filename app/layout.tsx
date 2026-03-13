@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: '%s | Sprinkler Medic',
   },
   description:
-    'Locally owned irrigation company serving north Alabama for 11+ years. Sprinkler repair, installation, leak detection & more. Licensed, insured. Call (256) 679-2934.',
+    'Locally owned irrigation company serving north Alabama for 11+ years. Sprinkler repair, installation, leak detection & more. Licensed & insured. (256) 679-2934.',
   keywords: [
     'sprinkler repair Huntsville AL',
     'irrigation repair Huntsville',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: 'Sprinkler Medic',
     title: 'Sprinkler Repair Huntsville AL | Sprinkler Medic',
     description:
-      'Locally owned irrigation company serving north Alabama for 11+ years. Sprinkler repair, installation, leak detection & more. Licensed, insured. Call (256) 679-2934.',
+      'Locally owned irrigation company serving north Alabama for 11+ years. Sprinkler repair, installation, leak detection & more. Licensed & insured. (256) 679-2934.',
   },
   twitter: {
     card: 'summary_large_image',
@@ -116,12 +116,12 @@ const localBusinessSchema = {
   currenciesAccepted: 'USD',
   paymentAccepted: 'Cash, Credit Card, Check',
   hasMap: 'https://maps.app.goo.gl/PEiZRcnM2vucotjh8',
-  image: `${BASE_URL}/images/sprinkler-medic-logo.jpg`,
+  image: `${BASE_URL}/icons/icon-512.png`,
   logo: {
     '@type': 'ImageObject',
-    url: `${BASE_URL}/images/sprinkler-medic-logo.jpg`,
-    width: 400,
-    height: 120,
+    url: `${BASE_URL}/icons/icon-512.png`,
+    width: 512,
+    height: 512,
   },
   sameAs: [
     'https://www.facebook.com/share/1CVLsjxcN7/',
@@ -132,10 +132,10 @@ const localBusinessSchema = {
   foundingDate: '2015',
   aggregateRating: {
     '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '47',
-    bestRating: '5',
-    worstRating: '1',
+    ratingValue: 4.9,
+    reviewCount: 47,
+    bestRating: 5,
+    worstRating: 1,
   },
 }
 
